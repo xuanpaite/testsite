@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang='en' class=''>
+<head>
+
+  <meta charset='UTF-8'>
+  <meta name="robots" content="noindex">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono" rel="stylesheet">
+
+
+<!-- BootStrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="icon" href="image/logo.ico">
+
+<title>Rewirl : The Lead Generator</title>
+
+<!-- Counter Java script -->
+<script src="count/counter.js"></script>
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Content -->
+    <div class="main-content">
+      <div class="counterDown text-center">
+        <h1>Rewirl - The lead Generator </h1>
+          <h1>COMING SOON</h1>
+        <hr>
+        <div id="demo">
+          <div id="jours" class="text-center"></div>
+          <div id="heures" class="text-center"></div>
+          <div id="minutes" class="text-center"></div>
+          <div id="secondes" class="text-center"></div>
+        </div>
+        <div id="infos">
+            <div class="infos-jours">Days</div>
+            <div class="infos-heures">Hours</div>
+            <div class="infos-minutes">Minutes</div>
+            <div class="infos-secondes">Seconds</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center">
+      <p>Copyright © Rewirl <span id="annee"></span> - All Rights Reserved. </p>
+    </footer>
+  </div>
+
+  <script type="text/javascript">
+    var date = new Date();
+    var annee = date.getFullYear();
+
+    document.getElementById('annee').innerHTML = annee;
+  </script>
+
+</body>
+</html>
