@@ -2,7 +2,7 @@
   <!-- JavaScript -->
 
     // Date de fin
-var countDownDate = new Date('Jun 22, 2020 00:00:00').getTime();
+var countDownDate = new Date('Jun 24, 2020 00:00:00').getTime();
 
 // Update toutes les 1 secondes
 var x = setInterval(function() {
